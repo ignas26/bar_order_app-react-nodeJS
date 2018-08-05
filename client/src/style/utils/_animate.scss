@@ -1,0 +1,23 @@
+.loader{
+    width:40px;
+    height:40px;
+    background: transparent;
+    border-radius: 40%;
+    border-top:12px solid $dark-grey;
+    border-bottom:12px solid $dark-grey;
+    border-left:12px solid transparent;
+    border-right:12px solid transparent;
+    margin: auto;
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    margin-top:25px;
+}
+@keyframes loader {
+    0%{
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

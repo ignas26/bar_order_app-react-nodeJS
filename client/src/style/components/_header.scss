@@ -1,0 +1,42 @@
+header{
+    display: flex;
+    top:0;
+    left:0;
+    width:100%;
+    background: $dark-grey;
+    justify-content: space-between;
+    align-items: center;
+    height:40px;
+    h2{
+        font-size:18px;
+        width:30%;
+        text-align: center;
+        color: #fff;
+    }
+    nav{
+        width:70%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+    }
+    h1{
+        text-align: left;
+        font-size:24px;
+        color: #fff;
+        font-family: 'Architects Daughter', cursive;
+        span{
+            color: $dark-red;
+        }
+    }
+    li{
+        color: #fff;
+        display: inline-block;
+        font-size:18px;
+        margin-right:20px;
+        cursor: pointer;
+        user-select: none;
+    }
+    .active{
+        border-bottom:3px solid $dark-red;
+    }
+}
